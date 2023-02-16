@@ -11,9 +11,9 @@ class SingleMovie extends Component {
     render() {
       return (
         <Col>
-          <Card className="generatedCard border-0" style={{ width: '20rem'}}>
+          <a href="this.props.movie.Poster"><Card className="generatedCard border-0" style={{ width: '20rem'}}>
             <Card.Img className="rounded-0" variant="top" src={this.props.movie.Poster} style={{height: '10rem', objectFit: 'cover'}}/>
-          </Card>
+          </Card></a>
         </Col>
       );
     }

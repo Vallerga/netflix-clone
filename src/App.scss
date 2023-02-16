@@ -50,3 +50,53 @@ body {
 .generatedCard:hover {
   transform: scale(1.3);
 }
+
+.hoverNetflix {
+  font-weight: 500!important;
+}
+
+.hoverNetflix {
+  cursor: pointer;
+}
+
+.hoverNetflix:hover {
+  font-weight: 700!important;
+}
+
+.hoverSett {
+  color: grey!important;
+}
+
+.hoverSett {
+  cursor: pointer;
+}
+
+.hoverSett:hover {
+  color: white !important;
+}
+
+.hoverReverse {
+  color: white!important;
+}
+
+.hoverReverse {
+  cursor: pointer;
+}
+
+.hoverReverse:hover {
+  color: grey !important;
+}
+
+.hoverUnderline {
+  text-decoration: none!important;
+  color: grey !important;
+
+}
+
+.hoverUnderline {
+  cursor: pointer;
+}
+
+.hoverUnderline:hover {
+  text-decoration: underline !important;
+}
